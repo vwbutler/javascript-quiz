@@ -69,14 +69,14 @@ body {
   border-color: red;
   font-family: "Trebuchet MS", sans-serif;
   color: --grape;
-  font-size: 2em;
+  font-size: 1em;
   letter-spacing: 0.21px;
   line-height: 16px;
-  max-width: 255px;
-  padding: 20px 52px;
-  text-align: center;
+  max-width: 90%; //455px
+  padding: 20px 20px;
+  text-align: left;
   transition-duration: 0.15s;
   transition-property: background-color;
   transition-timing-function: linear;
-  margin-top: 0.6em;
+  margin-top: 0.3em;
 }
