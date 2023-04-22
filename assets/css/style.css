@@ -14,12 +14,20 @@ body {
   min-height: 100vh;
   justify-content: flex-start;
   background-image: linear-gradient(to right, #00b4db, #0083b0);
+  /* background-image: white; */
 }
 
 .big-font {
   font-family: "Trebuchet MS", sans-serif;
   text-align: center;
   color: aliceblue;
+  font-size: 3.5em;
+}
+
+.countdown {
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: #b00083;
   font-size: 3.5em;
 }
 

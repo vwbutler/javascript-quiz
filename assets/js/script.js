@@ -24,6 +24,8 @@ const questions = [
   },
 ];
 
+// var interval = setInterval();
+
 var startDiv = document.getElementById("start");
 var startQuizBtn = document.getElementById("start-quiz-button");
 
@@ -60,3 +62,15 @@ choiceA.addEventListener("click", correctAnswer);
 choiceB.addEventListener("click", correctAnswer);
 //display function
 //include wording
+
+var timeleft = 40;
+var downloadTimer = setInterval(function () {
+  if (timeleft <= 0) {
+    clearInterval(downloadTimer);
+    document.getElementById("countdown").innerHTML = "Game Over";
+  } else {
+    document.getElementById("countdown").innerHTML =
+      " Time remaining:" + timeleft + " seconds";
+  }
+  timeleft -= 1;
+}, 1000);
