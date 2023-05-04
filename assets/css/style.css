@@ -80,11 +80,15 @@ body {
   font-size: 1em;
   letter-spacing: 0.21px;
   line-height: 16px;
-  max-width: 90%; //455px
+  max-width: 90%;
   padding: 20px 20px;
   text-align: left;
   transition-duration: 0.15s;
   transition-property: background-color;
   transition-timing-function: linear;
   margin-top: 0.3em;
+}
+
+.hide {
+  display: none;
 }
