@@ -33,10 +33,10 @@ var centerEl = document.querySelector(".center");
 
 var questionDiv = document.getElementById("questionDiv");
 var questionTitle = document.getElementById("questionTitle");
-var choiceA = document.getElementById("btn0");
-var choiceB = document.getElementById("btn1");
-var choiceC = document.getElementById("btn2");
-var choiceD = document.getElementById("btn3");
+// var choiceA = document.getElementById("btn0");
+// var choiceB = document.getElementById("btn1");
+// var choiceC = document.getElementById("btn2");
+// var choiceD = document.getElementById("btn3");
 var answerCheck = document.getElementById("answerCheck");
 
 // question index is used to go through the question choices one by one. Counting starts at 0 in javascript. 0 is the first question index
@@ -119,3 +119,7 @@ startQuizBtn.addEventListener("click", function () {
   showCountdown(); // this starts the timer
   displayQuiz(); // this puts questions on the page
 });
+
+var updatePlayerScore = function () {
+  var$();
+};
