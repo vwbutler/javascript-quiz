@@ -34,7 +34,7 @@ WHEN the game is over THEN I can save my initials and my score
 
 The following image shows a view of the quiz in progress.
 
-![Javascript Quiz](./Assets/images/visual.png)
+![Javascript Quiz](./assets/images/visual.png)
 
 ## License
 
