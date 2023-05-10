@@ -36,6 +36,14 @@ The following image shows a view of the quiz in progress.
 
 ![Javascript Quiz](./Assets/images/visual.png)
 
-## License:
+## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Deployed Application
+
+View the deployed application on Github at [https://vwbutler.github.io/javascript-quiz/](https://vwbutler.github.io/javascript-quiz/).
+
+## Need help?
+
+Contact [Virginia Butler](https://github.com/vwbutler) through Github.
