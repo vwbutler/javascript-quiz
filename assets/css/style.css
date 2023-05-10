@@ -3,24 +3,32 @@
   --blue: #0083b0;
   --grape: #b00083;
   --lime: #83b000;
+  --hover-green: #3e8e41;
+  --choice-green: #4caf50;
 }
 
 body {
   font-family: "Trebuchet MS", sans-serif;
-  color: white;
-  margin: 0;
+  color: #0083b0;
+  margin: 15%;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
-  background-image: linear-gradient(to right, #00b4db, #0083b0);
-  /* background-image: white; */
+  background-image: aliceblue);
+}
+
+.high-score {
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  color: #b00083;
+  font-size: 1em;
 }
 
 .big-font {
   font-family: "Trebuchet MS", sans-serif;
   text-align: center;
-  color: aliceblue;
+  color: #b00083e;
   font-size: 3.5em;
 }
 
@@ -28,7 +36,7 @@ body {
   font-family: "Trebuchet MS", sans-serif;
   text-align: center;
   color: #b00083;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 .big-button {
@@ -53,21 +61,14 @@ body {
 }
 
 .intro {
-  margin-left: 28%;
+  margin-left: 15%;
 }
-
-/* .button-container {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-} */
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
-  border: 3px solid #83b000;
 }
 
 .answer-button {
@@ -87,6 +88,22 @@ body {
   transition-property: background-color;
   transition-timing-function: linear;
   margin-top: 0.3em;
+}
+
+.choices-btn {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.choices-btn:hover {
+  background-color: #3e8e41;
 }
 
 .hide {
